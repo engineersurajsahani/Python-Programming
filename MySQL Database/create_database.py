@@ -1,9 +1,9 @@
 import mysql.connector
 
 # Replace these values with your MySQL server information
-host = "your_host"
-user = "your_username"
-password = "your_password"
+host = "localhost"
+user = "root"
+password = "root"
 
 # Connect to MySQL server
 connection = mysql.connector.connect(
@@ -16,7 +16,7 @@ connection = mysql.connector.connect(
 cursor = connection.cursor()
 
 # Replace 'your_database_name' with the desired database name
-database_name = 'your_database_name'
+database_name = 'instagram'
 
 # SQL query to create a new database
 create_database_query = f"CREATE DATABASE {database_name}"

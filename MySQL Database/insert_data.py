@@ -1,10 +1,10 @@
 import mysql.connector
 
 # Replace these values with your MySQL server and database information
-host = "your_host"
-user = "your_username"
-password = "your_password"
-database_name = "your_database_name"
+host = "localhost"
+user = "root"
+password = "root"
+database_name = "instagram"
 
 # Connect to MySQL server and select the database
 connection = mysql.connector.connect(
@@ -18,7 +18,7 @@ connection = mysql.connector.connect(
 cursor = connection.cursor()
 
 # Replace 'your_table_name' with the name of the table where you want to insert data
-table_name = 'your_table_name'
+table_name = 'users'
 
 # SQL query to insert data into the table
 insert_data_query = f"""

@@ -1,7 +1,5 @@
 # Python Array Programs
 
-from collections import deque,defaultdict
-
 l1=[1,3,5,7,9,2,4,6,8,10,2,10,5,8,1,3]
 
 # 1) Python Program to copy all elements of one array into another array
@@ -12,7 +10,7 @@ print(l2)
 # 2) Python Program to find the frequency of each element in the array
 
 def printFrequency(arr):
-    map=defaultdict()
+    map=dict()
     for x in arr:
         if x not in map:
             map[x]=1 
@@ -39,7 +37,7 @@ print(l1)
 # 4) Python Program to print the duplicate elements of an array
 
 def printDuplicates(arr):
-    map=defaultdict()
+    map=dict()
     for x in arr:
         if x not in map:
             map[x]=1 
@@ -165,7 +163,7 @@ print("1st Smallest element in the array :- ",l1[0])
 
 def removeDuplicates(arr):
     result=[]
-    map=defaultdict()
+    map=dict()
     for x in arr:
         if x not in map:
             map[x]=1 
