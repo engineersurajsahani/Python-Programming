@@ -31,9 +31,7 @@ Welcome to the **Python Programming Mastery** series by **[Elevate Coders](https
 3. **Inheritance**
 4. **Method Overriding**
 5. **Runtime Polymorphism**
-6. **Method Overloading**
-7. **Compile Time Polymorphism**
-8. **Abstract Class**
+6. **Abstract Class**
 
 ---
 
